@@ -1,15 +1,19 @@
 <h1>
     Bitcoin Price Index
 </h1>
+<hr>
 
-
-<span>Chose a Timeframe</span>
-<br>
-<br>
-<label for="from">From</label>
-<input type="date" id="start">
-<label for="to">To</label>
-<input type="date" id="end">
+<div class="date-wrapper">
+    <span>Chose a Timeframe</span>
+    <div class="input-wrapper">
+        <div class="from-wrapper">
+            <label for="from">From</label>
+        </div>
+        <input type="date" id="start">
+        <label for="to">To</label>
+        <input type="date" id="end">
+    </div>
+</div>
 <div class="canvas-wrapper">
     <canvas id="myChart"></canvas>
 </div>

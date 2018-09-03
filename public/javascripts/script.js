@@ -23,7 +23,7 @@ function drawChart(apiUrl) {
                 labels: dates,
                 datasets: [
                     {
-                        label: "# of Votes",
+                        label: "$",
                         data: values,
                         backgroundColor: ["rgba(255, 99, 132, 0.2)"],
                         borderColor: ["rgba(255,99,132,1)"],
